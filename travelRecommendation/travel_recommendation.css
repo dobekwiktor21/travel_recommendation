@@ -1,0 +1,40 @@
+ /* białe przezroczyste linki */
+ .nav-link {
+     color: rgba(255, 255, 255, 0.7) !important;
+     transition: color 0.3s ease;
+ }
+
+ .nav-link:hover,
+ .nav-link.active {
+     color: rgba(255, 255, 255, 1) !important;
+ }
+
+ /* przezroczyste pole search */
+ .form-control {
+     background-color: transparent !important;
+     border: 1px solid rgba(255, 255, 255, 0.7);
+     color: white;
+ }
+
+ .form-control::placeholder {
+     color: rgba(255, 255, 255, 0.6);
+ }
+
+ .form-control:focus {
+     box-shadow: none;
+     border-color: white;
+     color: white;
+ }
+   /* przyciski search i reset */
+   .btn-transparent {
+       background-color: transparent;
+       color: rgba(255, 255, 255, 0.8);
+       border: 1px solid rgba(255, 255, 255, 0.7);
+       transition: all 0.3s ease;
+   }
+
+   .btn-transparent:hover {
+       color: white;
+       border-color: white;
+       background-color: rgba(255, 255, 255, 0.1);
+   }
